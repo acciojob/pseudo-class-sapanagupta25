@@ -1,23 +1,24 @@
-/*  your css code here. If applicable */
 #container {
     margin: 20px;
     padding: 10px;
     border: 2px solid #000;
     display: inline-block;
     position: relative;
+    font-size: 20px;
 }
 
 #container::before {
-    content: "Before Element ";
+    content: "Before Element";
     color: #f00;
     font-size: 20px;
     display: inline;
 }
 
 #container::after {
-    content: " After Element ";
+    content: "After Element";
     color: #f00;
     font-size: 20px;
     display: inline;
 }
+
 
