@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+#container {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #000;
+    display: inline-block;
+    position: relative;
+}
+
+#container::before {
+    content: "Before Text ";
+    color: #f00;
+    font-size: 20px;
+    display: inline;
+}
+
+#container::after {
+    content: " After Text";
+    color: #f00;
+    font-size: 20px;
+    display: inline;
+}
+
